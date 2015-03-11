@@ -1,0 +1,8 @@
+.block {
+  padding: 10px;
+  border: 1px solid #777;
+}
+.btn-outer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}

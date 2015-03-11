@@ -1,0 +1,38 @@
+{
+  "name": "yg-events-on",
+  "version": "0.0.1",
+  "description": "An AngularJS module containing directives that evaluate an Angular expression on a given event.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ygoto3/yg-events-on.git"
+  },
+  "keywords": [
+    "angular.js",
+    "ng",
+    "directive",
+    "event",
+    "$emit",
+    "$broadcast",
+    "$on"
+  ],
+  "author": "Yusuke Goto",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ygoto3/yg-events-on/issues"
+  },
+  "homepage": "https://github.com/ygoto3/yg-events-on",
+  "devDependencies": {
+    "coffee-script": "^1.9.1",
+    "coffeeify": "^1.0.0",
+    "gulp": "^3.8.11",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.1",
+    "gulp-jade": "^1.0.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-stylus": "^2.0.1"
+  }
+}

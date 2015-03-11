@@ -1,0 +1,30 @@
+{
+  "name": "yg-events-on",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ygoto3/yg-events-on",
+  "description": "An AngularJS module containing directives that evaluate an Angular expression on a given event.",
+  "main": "./dist/index.js",
+  "keywords": [
+    "angular.js",
+    "ng",
+    "directive",
+    "event",
+    "$emit",
+    "$broadcast",
+    "$on"
+  ],
+  "authors": [
+    "Yusuke Goto"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.14"
+  }
+}

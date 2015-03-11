@@ -1,0 +1,5 @@
+angular.module("yg-events-on", [])
+.directive require('./directives/hideOn')
+.directive require('./directives/showOn')
+.directive require('./directives/falseOn')
+.directive require('./directives/trueOn')

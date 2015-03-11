@@ -1,0 +1,25 @@
+html(lang="en", ng-app="samples")
+  head
+    meta(charset="UTF-8")
+    title yg-events-on samples
+    link(rel="stylesheet", href="./css/style.css")
+  body
+    div(ng-controller="SampleCtrl", yg-false-on="event:false", yg-false-on-targets="flag", yg-true-on="event:true", yg-true-on-targets="flag")
+      div(yg-hide-on="event:hide", yg-show-on="event:show").block
+        p hide-show
+      .block
+        p flag: {{flag}}
+      
+    div(ng-controller="SampleActionsCtrl")
+      .btn-outer
+        button(ng-click="broadcastHide()") Broadcast Hide
+      .btn-outer
+        button(ng-click="broadcastShow()") Broadcast Show
+      .btn-outer
+        button(ng-click="broadcastFalse()") Broadcast False
+      .btn-outer
+        button(ng-click="broadcastTrue()") Broadcast True
+
+    script(type="text/javascript", src="../bower_components/angular/angular.min.js")
+    script(type="text/javascript", src="../dist/index.js")
+    script(type="text/javascript", src="./js/index.js")
